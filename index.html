@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head section with meta tags, title, and Google Fonts link -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Card</title>
+    <!-- Google Fonts link for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Internal CSS styling section -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 350px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .stream {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .bio {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main div structure for the profile card -->
+    <div class="profile-card">
+        <div class="profile-image">👨‍🎓</div>
+        <div class="name">Alex Johnson</div>
+        <div class="stream">Computer Science</div>
+        <div class="bio">
+            Passionate computer science student with a keen interest in artificial intelligence and web development.
+            Always eager to learn new technologies and collaborate on innovative projects.
+            Committed to making a positive impact through technology.
+        </div>
+    </div>
+</body>
+</html></content>
+<parameter name="filePath">
